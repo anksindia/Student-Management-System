@@ -1,0 +1,168 @@
+/* Container */
+.students-container {
+  max-width: 900px;
+  margin: auto;
+  padding: 20px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+/* Title */
+.students-container h2 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 20px;
+  font-weight: 600;
+}
+
+/* Form */
+.students-form {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+  margin-bottom: 20px;
+  background: #fff;
+  padding: 15px 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+}
+
+.students-form input {
+  padding: 10px;
+  flex: 1 1 200px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  transition: 0.3s;
+}
+
+.students-form input:focus {
+  border-color: #386ecb;
+  outline: none;
+  box-shadow: 0 0 5px rgba(76, 175, 239, 0.3);
+}
+
+.students-form button {
+  padding: 10px 15px;
+  background: #2a5298;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+#add{
+  width: 100vw;
+}
+
+.students-form button:hover {
+  background: #1e3c72;
+}
+
+/* Subjects checkboxes */
+.subjects-checkbox {
+  width: 100%;
+  margin-top: 10px;
+}
+
+.subjects-checkbox h4 {
+  margin-bottom: 5px;
+  color: #555;
+  font-size: 14px;
+}
+
+.subjects-checkbox label {
+  display: block;
+  margin: 3px 0;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+/* Table */
+.students-table {
+  width: 100%;
+  border-collapse: collapse;
+  overflow-x: auto;
+  background: #fff;
+  border-radius: 10px;
+}
+
+.students-table th,
+.students-table td {
+  border: 1px solid #ddd;
+  padding: 12px 10px;
+  text-align: center;
+}
+
+.students-table th {
+  background: #2a5298;
+  color: white;
+  font-weight: 500;
+}
+
+.students-table tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.students-table tr:hover {
+  background-color: #f1f1f1;
+}
+
+/* Buttons inside table */
+.table-actions button {
+  margin:  5px;
+  padding: 6px 12px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 13px;
+  width: 70px;
+}
+
+.table-actions .edit-btn {
+  background: #ff9800;
+  color: white;
+}
+
+.table-actions .edit-btn:hover {
+  background: #e68900;
+}
+
+.table-actions .save-btn {
+  background: #4caf50;
+  color: white;
+}
+
+.table-actions .save-btn:hover {
+  background: #388e3c;
+}
+
+.table-actions .delete-btn {
+  background: #f44336;
+  color: white;
+}
+
+.table-actions .delete-btn:hover {
+  background: #c62828;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .students-form {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .students-table th,
+  .students-table td {
+    font-size: 14px;
+    padding: 8px;
+  }
+
+  .table-actions button {
+    padding: 5px 8px;
+    font-size: 12px;
+  }
+}

@@ -1,0 +1,342 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Ankit Suyal\\Downloads\\techfeatures\\new\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{224E1D8A-8F51-4198-82BD-C22FA82507E1}|DemoApp.Application\\DemoApp.Interface.csproj|c:\\users\\ankit suyal\\downloads\\techfeatures\\new\\demoapp.application\\services\\istudentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{224E1D8A-8F51-4198-82BD-C22FA82507E1}|DemoApp.Application\\DemoApp.Interface.csproj|solutionrelative:demoapp.application\\services\\istudentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BA0F1370-17A9-4C31-99C2-B47D82BD1968}|DemoApp\\DemoApp.csproj|c:\\users\\ankit suyal\\downloads\\techfeatures\\new\\demoapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BA0F1370-17A9-4C31-99C2-B47D82BD1968}|DemoApp\\DemoApp.csproj|solutionrelative:demoapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C112FF69-74FF-4A8F-BDF9-083A1C8EAE30}|DemoApp.services\\DemoApp.Services.csproj|c:\\users\\ankit suyal\\downloads\\techfeatures\\new\\demoapp.services\\implementations\\studentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C112FF69-74FF-4A8F-BDF9-083A1C8EAE30}|DemoApp.services\\DemoApp.Services.csproj|solutionrelative:demoapp.services\\implementations\\studentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C112FF69-74FF-4A8F-BDF9-083A1C8EAE30}|DemoApp.services\\DemoApp.Services.csproj|c:\\users\\ankit suyal\\downloads\\techfeatures\\new\\demoapp.services\\implementations\\studentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C112FF69-74FF-4A8F-BDF9-083A1C8EAE30}|DemoApp.services\\DemoApp.Services.csproj|solutionrelative:demoapp.services\\implementations\\studentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BA0F1370-17A9-4C31-99C2-B47D82BD1968}|DemoApp\\DemoApp.csproj|c:\\users\\ankit suyal\\downloads\\techfeatures\\new\\demoapp\\controllers\\studentscontrollers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BA0F1370-17A9-4C31-99C2-B47D82BD1968}|DemoApp\\DemoApp.csproj|solutionrelative:demoapp\\controllers\\studentscontrollers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{224E1D8A-8F51-4198-82BD-C22FA82507E1}|DemoApp.Application\\DemoApp.Interface.csproj|c:\\users\\ankit suyal\\downloads\\techfeatures\\new\\demoapp.application\\services\\iusersservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{224E1D8A-8F51-4198-82BD-C22FA82507E1}|DemoApp.Application\\DemoApp.Interface.csproj|solutionrelative:demoapp.application\\services\\iusersservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{224E1D8A-8F51-4198-82BD-C22FA82507E1}|DemoApp.Application\\DemoApp.Interface.csproj|c:\\users\\ankit suyal\\downloads\\techfeatures\\new\\demoapp.application\\services\\isubjectservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{224E1D8A-8F51-4198-82BD-C22FA82507E1}|DemoApp.Application\\DemoApp.Interface.csproj|solutionrelative:demoapp.application\\services\\isubjectservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C112FF69-74FF-4A8F-BDF9-083A1C8EAE30}|DemoApp.services\\DemoApp.Services.csproj|c:\\users\\ankit suyal\\downloads\\techfeatures\\new\\demoapp.services\\implementations\\usersservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C112FF69-74FF-4A8F-BDF9-083A1C8EAE30}|DemoApp.services\\DemoApp.Services.csproj|solutionrelative:demoapp.services\\implementations\\usersservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BA0F1370-17A9-4C31-99C2-B47D82BD1968}|DemoApp\\DemoApp.csproj|c:\\users\\ankit suyal\\downloads\\techfeatures\\new\\demoapp\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BA0F1370-17A9-4C31-99C2-B47D82BD1968}|DemoApp\\DemoApp.csproj|solutionrelative:demoapp\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4FF15BB8-087E-45F8-8EE8-7F20591D0BEB}|DemoApp.domain\\DemoApp.domain.csproj|c:\\users\\ankit suyal\\downloads\\techfeatures\\new\\demoapp.domain\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4FF15BB8-087E-45F8-8EE8-7F20591D0BEB}|DemoApp.domain\\DemoApp.domain.csproj|solutionrelative:demoapp.domain\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C112FF69-74FF-4A8F-BDF9-083A1C8EAE30}|DemoApp.services\\DemoApp.Services.csproj|c:\\users\\ankit suyal\\downloads\\techfeatures\\new\\demoapp.services\\implementations\\usersrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C112FF69-74FF-4A8F-BDF9-083A1C8EAE30}|DemoApp.services\\DemoApp.Services.csproj|solutionrelative:demoapp.services\\implementations\\usersrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{224E1D8A-8F51-4198-82BD-C22FA82507E1}|DemoApp.Application\\DemoApp.Interface.csproj|c:\\users\\ankit suyal\\downloads\\techfeatures\\new\\demoapp.application\\repositories\\iusersrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{224E1D8A-8F51-4198-82BD-C22FA82507E1}|DemoApp.Application\\DemoApp.Interface.csproj|solutionrelative:demoapp.application\\repositories\\iusersrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C112FF69-74FF-4A8F-BDF9-083A1C8EAE30}|DemoApp.services\\DemoApp.Services.csproj|c:\\users\\ankit suyal\\downloads\\techfeatures\\new\\demoapp.services\\demoapp.services.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{C112FF69-74FF-4A8F-BDF9-083A1C8EAE30}|DemoApp.services\\DemoApp.Services.csproj|solutionrelative:demoapp.services\\demoapp.services.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{224E1D8A-8F51-4198-82BD-C22FA82507E1}|DemoApp.Application\\DemoApp.Interface.csproj|c:\\users\\ankit suyal\\downloads\\techfeatures\\new\\demoapp.application\\repositories\\isubjectrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{224E1D8A-8F51-4198-82BD-C22FA82507E1}|DemoApp.Application\\DemoApp.Interface.csproj|solutionrelative:demoapp.application\\repositories\\isubjectrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BA0F1370-17A9-4C31-99C2-B47D82BD1968}|DemoApp\\DemoApp.csproj|c:\\users\\ankit suyal\\downloads\\techfeatures\\new\\demoapp\\controllers\\subjectscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BA0F1370-17A9-4C31-99C2-B47D82BD1968}|DemoApp\\DemoApp.csproj|solutionrelative:demoapp\\controllers\\subjectscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C112FF69-74FF-4A8F-BDF9-083A1C8EAE30}|DemoApp.services\\DemoApp.Services.csproj|c:\\users\\ankit suyal\\downloads\\techfeatures\\new\\demoapp.services\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C112FF69-74FF-4A8F-BDF9-083A1C8EAE30}|DemoApp.services\\DemoApp.Services.csproj|solutionrelative:demoapp.services\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C112FF69-74FF-4A8F-BDF9-083A1C8EAE30}|DemoApp.services\\DemoApp.Services.csproj|c:\\users\\ankit suyal\\downloads\\techfeatures\\new\\demoapp.services\\implementations\\subjectservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C112FF69-74FF-4A8F-BDF9-083A1C8EAE30}|DemoApp.services\\DemoApp.Services.csproj|solutionrelative:demoapp.services\\implementations\\subjectservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C112FF69-74FF-4A8F-BDF9-083A1C8EAE30}|DemoApp.services\\DemoApp.Services.csproj|c:\\users\\ankit suyal\\downloads\\techfeatures\\new\\demoapp.services\\implementations\\subjectrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C112FF69-74FF-4A8F-BDF9-083A1C8EAE30}|DemoApp.services\\DemoApp.Services.csproj|solutionrelative:demoapp.services\\implementations\\subjectrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BA0F1370-17A9-4C31-99C2-B47D82BD1968}|DemoApp\\DemoApp.csproj|c:\\users\\ankit suyal\\downloads\\techfeatures\\new\\demoapp\\demoapp.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{BA0F1370-17A9-4C31-99C2-B47D82BD1968}|DemoApp\\DemoApp.csproj|solutionrelative:demoapp\\demoapp.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4FF15BB8-087E-45F8-8EE8-7F20591D0BEB}|DemoApp.domain\\DemoApp.domain.csproj|c:\\users\\ankit suyal\\downloads\\techfeatures\\new\\demoapp.domain\\demoapp.domain.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{4FF15BB8-087E-45F8-8EE8-7F20591D0BEB}|DemoApp.domain\\DemoApp.domain.csproj|solutionrelative:demoapp.domain\\demoapp.domain.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "StudentsControllers.cs",
+              "DocumentMoniker": "C:\\Users\\Ankit Suyal\\Downloads\\techfeatures\\new\\DemoApp\\Controllers\\StudentsControllers.cs",
+              "RelativeDocumentMoniker": "DemoApp\\Controllers\\StudentsControllers.cs",
+              "ToolTip": "C:\\Users\\Ankit Suyal\\Downloads\\techfeatures\\new\\DemoApp\\Controllers\\StudentsControllers.cs",
+              "RelativeToolTip": "DemoApp\\Controllers\\StudentsControllers.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAYwB0AAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-08T06:37:49.57Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Ankit Suyal\\Downloads\\techfeatures\\new\\DemoApp\\Program.cs",
+              "RelativeDocumentMoniker": "DemoApp\\Program.cs",
+              "ToolTip": "C:\\Users\\Ankit Suyal\\Downloads\\techfeatures\\new\\DemoApp\\Program.cs",
+              "RelativeToolTip": "DemoApp\\Program.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAiwCAAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-08T06:54:14.64Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "IStudentService.cs",
+              "DocumentMoniker": "C:\\Users\\Ankit Suyal\\Downloads\\techfeatures\\new\\DemoApp.Application\\Services\\IStudentService.cs",
+              "RelativeDocumentMoniker": "DemoApp.Application\\Services\\IStudentService.cs",
+              "ToolTip": "C:\\Users\\Ankit Suyal\\Downloads\\techfeatures\\new\\DemoApp.Application\\Services\\IStudentService.cs",
+              "RelativeToolTip": "DemoApp.Application\\Services\\IStudentService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-08T06:38:38.423Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "IUsersService.cs",
+              "DocumentMoniker": "C:\\Users\\Ankit Suyal\\Downloads\\techfeatures\\new\\DemoApp.Application\\Services\\IUsersService.cs",
+              "RelativeDocumentMoniker": "DemoApp.Application\\Services\\IUsersService.cs",
+              "ToolTip": "C:\\Users\\Ankit Suyal\\Downloads\\techfeatures\\new\\DemoApp.Application\\Services\\IUsersService.cs",
+              "RelativeToolTip": "DemoApp.Application\\Services\\IUsersService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-08T07:34:47.213Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\Ankit Suyal\\Downloads\\techfeatures\\new\\DemoApp.domain\\Entities\\User.cs",
+              "RelativeDocumentMoniker": "DemoApp.domain\\Entities\\User.cs",
+              "ToolTip": "C:\\Users\\Ankit Suyal\\Downloads\\techfeatures\\new\\DemoApp.domain\\Entities\\User.cs",
+              "RelativeToolTip": "DemoApp.domain\\Entities\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-08T09:48:43.244Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "StudentService.cs",
+              "DocumentMoniker": "C:\\Users\\Ankit Suyal\\Downloads\\techfeatures\\new\\DemoApp.services\\Implementations\\StudentService.cs",
+              "RelativeDocumentMoniker": "DemoApp.services\\Implementations\\StudentService.cs",
+              "ToolTip": "C:\\Users\\Ankit Suyal\\Downloads\\techfeatures\\new\\DemoApp.services\\Implementations\\StudentService.cs",
+              "RelativeToolTip": "DemoApp.services\\Implementations\\StudentService.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABgAAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-08T06:38:51.561Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "StudentRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Ankit Suyal\\Downloads\\techfeatures\\new\\DemoApp.services\\Implementations\\StudentRepository.cs",
+              "RelativeDocumentMoniker": "DemoApp.services\\Implementations\\StudentRepository.cs",
+              "ToolTip": "C:\\Users\\Ankit Suyal\\Downloads\\techfeatures\\new\\DemoApp.services\\Implementations\\StudentRepository.cs",
+              "RelativeToolTip": "DemoApp.services\\Implementations\\StudentRepository.cs",
+              "ViewState": "AgIAAE0AAAAAAAAAAAAMwCsAAAA/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-08T07:10:59.965Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ISubjectService.cs",
+              "DocumentMoniker": "C:\\Users\\Ankit Suyal\\Downloads\\techfeatures\\new\\DemoApp.Application\\Services\\ISubjectService.cs",
+              "RelativeDocumentMoniker": "DemoApp.Application\\Services\\ISubjectService.cs",
+              "ToolTip": "C:\\Users\\Ankit Suyal\\Downloads\\techfeatures\\new\\DemoApp.Application\\Services\\ISubjectService.cs",
+              "RelativeToolTip": "DemoApp.Application\\Services\\ISubjectService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-08T07:30:52.982Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "UsersController.cs",
+              "DocumentMoniker": "C:\\Users\\Ankit Suyal\\Downloads\\techfeatures\\new\\DemoApp\\Controllers\\UsersController.cs",
+              "RelativeDocumentMoniker": "DemoApp\\Controllers\\UsersController.cs",
+              "ToolTip": "C:\\Users\\Ankit Suyal\\Downloads\\techfeatures\\new\\DemoApp\\Controllers\\UsersController.cs",
+              "RelativeToolTip": "DemoApp\\Controllers\\UsersController.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAAwCcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-08T07:26:44.23Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "UsersRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Ankit Suyal\\Downloads\\techfeatures\\new\\DemoApp.services\\Implementations\\UsersRepository.cs",
+              "RelativeDocumentMoniker": "DemoApp.services\\Implementations\\UsersRepository.cs",
+              "ToolTip": "C:\\Users\\Ankit Suyal\\Downloads\\techfeatures\\new\\DemoApp.services\\Implementations\\UsersRepository.cs",
+              "RelativeToolTip": "DemoApp.services\\Implementations\\UsersRepository.cs",
+              "ViewState": "AgIAAIUAAAAAAAAAAAAiwJwAAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-08T07:33:26.021Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "UsersService.cs",
+              "DocumentMoniker": "C:\\Users\\Ankit Suyal\\Downloads\\techfeatures\\new\\DemoApp.services\\Implementations\\UsersService.cs",
+              "RelativeDocumentMoniker": "DemoApp.services\\Implementations\\UsersService.cs",
+              "ToolTip": "C:\\Users\\Ankit Suyal\\Downloads\\techfeatures\\new\\DemoApp.services\\Implementations\\UsersService.cs",
+              "RelativeToolTip": "DemoApp.services\\Implementations\\UsersService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-08T07:35:01.879Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "DemoApp.Services.csproj",
+              "DocumentMoniker": "C:\\Users\\Ankit Suyal\\Downloads\\techfeatures\\new\\DemoApp.services\\DemoApp.Services.csproj",
+              "RelativeDocumentMoniker": "DemoApp.services\\DemoApp.Services.csproj",
+              "ToolTip": "C:\\Users\\Ankit Suyal\\Downloads\\techfeatures\\new\\DemoApp.services\\DemoApp.Services.csproj",
+              "RelativeToolTip": "DemoApp.services\\DemoApp.Services.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-10-08T06:59:01.868Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "IUsersRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Ankit Suyal\\Downloads\\techfeatures\\new\\DemoApp.Application\\Repositories\\IUsersRepository.cs",
+              "RelativeDocumentMoniker": "DemoApp.Application\\Repositories\\IUsersRepository.cs",
+              "ToolTip": "C:\\Users\\Ankit Suyal\\Downloads\\techfeatures\\new\\DemoApp.Application\\Repositories\\IUsersRepository.cs",
+              "RelativeToolTip": "DemoApp.Application\\Repositories\\IUsersRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-08T07:33:08.425Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "ISubjectRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Ankit Suyal\\Downloads\\techfeatures\\new\\DemoApp.Application\\Repositories\\ISubjectRepository.cs",
+              "RelativeDocumentMoniker": "DemoApp.Application\\Repositories\\ISubjectRepository.cs",
+              "ToolTip": "C:\\Users\\Ankit Suyal\\Downloads\\techfeatures\\new\\DemoApp.Application\\Repositories\\ISubjectRepository.cs",
+              "RelativeToolTip": "DemoApp.Application\\Repositories\\ISubjectRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-08T07:29:49.974Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "SubjectsController.cs",
+              "DocumentMoniker": "C:\\Users\\Ankit Suyal\\Downloads\\techfeatures\\new\\DemoApp\\Controllers\\SubjectsController.cs",
+              "RelativeDocumentMoniker": "DemoApp\\Controllers\\SubjectsController.cs",
+              "ToolTip": "C:\\Users\\Ankit Suyal\\Downloads\\techfeatures\\new\\DemoApp\\Controllers\\SubjectsController.cs",
+              "RelativeToolTip": "DemoApp\\Controllers\\SubjectsController.cs",
+              "ViewState": "AgIAACUAAAAAAAAAAAAkwDcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-08T07:26:26.573Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "DependencyInjection.cs",
+              "DocumentMoniker": "C:\\Users\\Ankit Suyal\\Downloads\\techfeatures\\new\\DemoApp.services\\DependencyInjection.cs",
+              "RelativeDocumentMoniker": "DemoApp.services\\DependencyInjection.cs",
+              "ToolTip": "C:\\Users\\Ankit Suyal\\Downloads\\techfeatures\\new\\DemoApp.services\\DependencyInjection.cs",
+              "RelativeToolTip": "DemoApp.services\\DependencyInjection.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-08T07:10:39.524Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "SubjectService.cs",
+              "DocumentMoniker": "C:\\Users\\Ankit Suyal\\Downloads\\techfeatures\\new\\DemoApp.services\\Implementations\\SubjectService.cs",
+              "RelativeDocumentMoniker": "DemoApp.services\\Implementations\\SubjectService.cs",
+              "ToolTip": "C:\\Users\\Ankit Suyal\\Downloads\\techfeatures\\new\\DemoApp.services\\Implementations\\SubjectService.cs",
+              "RelativeToolTip": "DemoApp.services\\Implementations\\SubjectService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-08T07:31:11.644Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "SubjectRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Ankit Suyal\\Downloads\\techfeatures\\new\\DemoApp.services\\Implementations\\SubjectRepository.cs",
+              "RelativeDocumentMoniker": "DemoApp.services\\Implementations\\SubjectRepository.cs",
+              "ToolTip": "C:\\Users\\Ankit Suyal\\Downloads\\techfeatures\\new\\DemoApp.services\\Implementations\\SubjectRepository.cs",
+              "RelativeToolTip": "DemoApp.services\\Implementations\\SubjectRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-08T07:31:41.977Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "DemoApp.domain.csproj",
+              "DocumentMoniker": "C:\\Users\\Ankit Suyal\\Downloads\\techfeatures\\new\\DemoApp.domain\\DemoApp.domain.csproj",
+              "RelativeDocumentMoniker": "DemoApp.domain\\DemoApp.domain.csproj",
+              "ToolTip": "C:\\Users\\Ankit Suyal\\Downloads\\techfeatures\\new\\DemoApp.domain\\DemoApp.domain.csproj",
+              "RelativeToolTip": "DemoApp.domain\\DemoApp.domain.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-10-08T06:59:26.827Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "DemoApp.csproj",
+              "DocumentMoniker": "C:\\Users\\Ankit Suyal\\Downloads\\techfeatures\\new\\DemoApp\\DemoApp.csproj",
+              "RelativeDocumentMoniker": "DemoApp\\DemoApp.csproj",
+              "ToolTip": "C:\\Users\\Ankit Suyal\\Downloads\\techfeatures\\new\\DemoApp\\DemoApp.csproj",
+              "RelativeToolTip": "DemoApp\\DemoApp.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAABJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-10-08T06:58:27.368Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

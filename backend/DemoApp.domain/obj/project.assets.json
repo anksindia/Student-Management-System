@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Ankit Suyal\\Downloads\\techfeatures\\new\\DemoApp.domain\\DemoApp.domain.csproj",
+      "projectUniqueName": "C:\\Users\\Ankit Suyal\\Downloads\\techfeatures\\studentData\\backend\\DemoApp.domain\\DemoApp.domain.csproj",
       "projectName": "DemoApp.domain",
-      "projectPath": "C:\\Users\\Ankit Suyal\\Downloads\\techfeatures\\new\\DemoApp.domain\\DemoApp.domain.csproj",
+      "projectPath": "C:\\Users\\Ankit Suyal\\Downloads\\techfeatures\\studentData\\backend\\DemoApp.domain\\DemoApp.domain.csproj",
       "packagesPath": "C:\\Users\\Ankit Suyal\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Ankit Suyal\\Downloads\\techfeatures\\new\\DemoApp.domain\\obj\\",
+      "outputPath": "C:\\Users\\Ankit Suyal\\Downloads\\techfeatures\\studentData\\backend\\DemoApp.domain\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

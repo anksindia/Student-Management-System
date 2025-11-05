@@ -2246,11 +2246,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Ankit Suyal\\Downloads\\techfeatures\\new\\DemoApp\\DemoApp.csproj",
+      "projectUniqueName": "C:\\Users\\Ankit Suyal\\Downloads\\techfeatures\\studentData\\backend\\DemoApp\\DemoApp.csproj",
       "projectName": "DemoApp",
-      "projectPath": "C:\\Users\\Ankit Suyal\\Downloads\\techfeatures\\new\\DemoApp\\DemoApp.csproj",
+      "projectPath": "C:\\Users\\Ankit Suyal\\Downloads\\techfeatures\\studentData\\backend\\DemoApp\\DemoApp.csproj",
       "packagesPath": "C:\\Users\\Ankit Suyal\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Ankit Suyal\\Downloads\\techfeatures\\new\\DemoApp\\obj\\",
+      "outputPath": "C:\\Users\\Ankit Suyal\\Downloads\\techfeatures\\studentData\\backend\\DemoApp\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -2271,14 +2271,14 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\Ankit Suyal\\Downloads\\techfeatures\\new\\DemoApp.Application\\DemoApp.Interface.csproj": {
-              "projectPath": "C:\\Users\\Ankit Suyal\\Downloads\\techfeatures\\new\\DemoApp.Application\\DemoApp.Interface.csproj"
+            "C:\\Users\\Ankit Suyal\\Downloads\\techfeatures\\studentData\\backend\\DemoApp.Application\\DemoApp.Interface.csproj": {
+              "projectPath": "C:\\Users\\Ankit Suyal\\Downloads\\techfeatures\\studentData\\backend\\DemoApp.Application\\DemoApp.Interface.csproj"
             },
-            "C:\\Users\\Ankit Suyal\\Downloads\\techfeatures\\new\\DemoApp.domain\\DemoApp.domain.csproj": {
-              "projectPath": "C:\\Users\\Ankit Suyal\\Downloads\\techfeatures\\new\\DemoApp.domain\\DemoApp.domain.csproj"
+            "C:\\Users\\Ankit Suyal\\Downloads\\techfeatures\\studentData\\backend\\DemoApp.domain\\DemoApp.domain.csproj": {
+              "projectPath": "C:\\Users\\Ankit Suyal\\Downloads\\techfeatures\\studentData\\backend\\DemoApp.domain\\DemoApp.domain.csproj"
             },
-            "C:\\Users\\Ankit Suyal\\Downloads\\techfeatures\\new\\DemoApp.Services\\DemoApp.Services.csproj": {
-              "projectPath": "C:\\Users\\Ankit Suyal\\Downloads\\techfeatures\\new\\DemoApp.Services\\DemoApp.Services.csproj"
+            "C:\\Users\\Ankit Suyal\\Downloads\\techfeatures\\studentData\\backend\\DemoApp.Services\\DemoApp.Services.csproj": {
+              "projectPath": "C:\\Users\\Ankit Suyal\\Downloads\\techfeatures\\studentData\\backend\\DemoApp.Services\\DemoApp.Services.csproj"
             }
           }
         }

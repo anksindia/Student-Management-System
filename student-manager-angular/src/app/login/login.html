@@ -1,0 +1,41 @@
+<div class="login-container">
+  <div class="login-card">
+    <h2 class="login-title">Login</h2>
+    <form (submit)="handleLogin($event)">
+      <input
+        type="email"
+        name="email"
+        placeholder="Email"
+        [(ngModel)]="form.email"
+        (input)="handleChange($event)"
+        required
+        class="login-input"
+      />
+      <div class="login-password-wrapper">
+        <input
+          [type]="showPassword ? 'text' : 'password'"
+          name="password"
+          placeholder="Password"
+          [(ngModel)]="form.password"
+          (input)="handleChange($event)"
+          required
+          class="login-input login-password"
+        />
+        <span
+          (click)="toggleShowPassword()"
+          class="toggle-password"
+        >
+          {{ showPassword ? 'Hide' : 'Show' }}
+        </span>
+      </div>
+      <button
+        type="submit"
+        class="login-btn"
+        (mouseover)="onMouseOver($event)"
+        (mouseout)="onMouseOut($event)"
+      >
+        Login
+      </button>
+    </form>
+  </div>
+</div>

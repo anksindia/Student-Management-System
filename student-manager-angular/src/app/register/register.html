@@ -1,0 +1,59 @@
+<div class="register-container">
+  <div class="register-card">
+    <h2 class="register-title">Register</h2>
+    <form (submit)="handleRegister($event)">
+      <input
+        type="text"
+        name="name"
+        placeholder="Name"
+        [(ngModel)]="form.name"
+        (input)="handleChange($event)"
+        required
+        class="register-input"
+      />
+      <input
+        type="text"
+        name="rollNumber"
+        placeholder="Roll Number"
+        [(ngModel)]="form.rollNumber"
+        (input)="handleChange($event)"
+        required
+        class="register-input"
+      />
+      <input
+        type="email"
+        name="email"
+        placeholder="Email"
+        [(ngModel)]="form.email"
+        (input)="handleChange($event)"
+        required
+        class="register-input"
+      />
+      <div class="register-password-wrapper">
+        <input
+          [type]="showPassword ? 'text' : 'password'"
+          name="password"
+          placeholder="Password (min 6 chars)"
+          [(ngModel)]="form.password"
+          (input)="handleChange($event)"
+          required
+          class="register-input register-password"
+        />
+        <span
+          (click)="toggleShowPassword()"
+          class="toggle-password"
+        >
+          {{ showPassword ? 'Hide' : 'Show' }}
+        </span>
+      </div>
+      <button
+        type="submit"
+        class="register-btn"
+        (mouseover)="onMouseOver($event)"
+        (mouseout)="onMouseOut($event)"
+      >
+        Register
+      </button>
+    </form>
+  </div>
+</div>

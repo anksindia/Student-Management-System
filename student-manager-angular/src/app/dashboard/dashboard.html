@@ -1,0 +1,60 @@
+<div *ngIf="user" class="dashboard-bg">
+  <div class="dashboard-header">
+    <h2 class="dashboard-welcome">Welcome, {{ user?.name || 'Guest' }}!</h2>
+    <p><strong>Email:</strong> {{ user?.email || '-' }}</p>
+    <p><strong>Roll Number:</strong> {{ user?.rollNumber || '-' }}</p>
+    <button (click)="handleLogout()" class="dashboard-logout-btn"
+      (mouseover)="onMouseOver($event)" (mouseout)="onMouseOut($event)">
+      Logout
+    </button>
+  </div>
+
+  <div class="dashboard-card">
+    <h2 class="dashboard-section-title">Students Data</h2>
+    <form class="dashboard-student-form" (submit)="editId ? saveStudent() : addStudent(); $event.preventDefault();">
+      <div class="dashboard-row">
+        <input [(ngModel)]="form.name" name="name" placeholder="Name" class="dashboard-input" required />
+        <input [(ngModel)]="form.email" name="email" placeholder="Email" class="dashboard-input" required />
+        <input [(ngModel)]="form.mobileNo" name="mobileNo" type="tel" placeholder="Mobile No" class="dashboard-input" required />
+        <input [(ngModel)]="form.address" name="address" placeholder="Address" class="dashboard-input" required />
+      </div>
+
+      <div class="dashboard-subjects">
+        <h4>Select Subjects:</h4>
+        <div class="dashboard-checkbox-list">
+          <label *ngFor="let sub of subjects" class="dashboard-checkbox-label">
+            <input type="checkbox" [checked]="selectedSubjects.includes(sub.id)" (change)="handleSubjectChange(sub.id)" />
+            {{ sub.subjectName }}
+          </label>
+        </div>
+      </div>
+
+      <button type="submit" class="dashboard-add-btn" *ngIf="!editId">Add</button>
+      <button type="submit" class="dashboard-save-btn" *ngIf="editId">Save Changes</button>
+    </form>
+
+    <div class="dashboard-table-container">
+      <table class="students-table">
+        <thead>
+          <tr>
+            <th>ID</th><th>Name</th><th>Address</th><th>Email</th><th>Mobile</th><th>Subjects</th><th>Actions</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr *ngFor="let s of students" [hidden]="editId === s.id">
+            <td>{{ s.id }}</td>
+            <td>{{ s.name }}</td>
+            <td>{{ s.address }}</td>
+            <td>{{ s.email }}</td>
+            <td>{{ s.mobileNo }}</td>
+            <td>{{ s.subjectNames?.join(', ') }}</td>
+            <td class="table-actions">
+              <button class="edit-btn" (click)="startEdit(s)">Edit</button>
+              <button class="delete-btn" (click)="deleteStudent(s.id)">Delete</button>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</div>

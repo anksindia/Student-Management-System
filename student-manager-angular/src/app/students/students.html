@@ -1,0 +1,23 @@
+<div class="student-container">
+  <!-- Icon aur Title -->
+  <div class="student-title-bar">
+    <span class="student-emoji">🎓</span>
+    <h1 class="student-title">Student Management System</h1>
+  </div>
+  <p class="student-subtitle">Manage your student data with ease</p>
+  <!-- Buttons -->
+  <div class="student-buttons">
+    <button [ngStyle]="btnStyle('#007bff')" (click)="navigate('login')">
+      <span class="student-btn-icon">🔒</span>
+      Login
+    </button>
+    <button [ngStyle]="btnStyle('#28a745')" (click)="navigate('register')">
+      <span class="student-btn-icon">➕</span>
+      Register
+    </button>
+    <button [ngStyle]="btnStyle('#ff5722')" (click)="navigate('AdminLogin')">
+      <span class="student-btn-icon">🛡️</span>
+      Login as Admin
+    </button>
+  </div>
+</div>

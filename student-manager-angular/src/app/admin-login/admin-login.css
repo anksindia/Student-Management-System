@@ -1,0 +1,83 @@
+.admin-login-bg {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%);
+  font-family: Segoe UI, Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.admin-login-card {
+  background: #fff;
+  padding: 40px 32px 32px 32px;
+  border-radius: 16px;
+  box-shadow: 0 8px 32px 0 rgba(0,0,0,0.10);
+  width: 100%;
+  max-width: 430px;
+  text-align: center;
+}
+
+.admin-login-title {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 30px;
+  color: #222;
+  letter-spacing: 1px;
+}
+
+.admin-login-input {
+  width: 100%;
+  padding: 16px 14px;
+  margin: 16px 0 0 0;
+  border-radius: 8px;
+  border: 1.5px solid #e0e0e0;
+  outline: none;
+  font-size: 17px;
+  color: #222;
+  background: #fafbfc;
+  transition: border 0.2s;
+  box-sizing: border-box;
+}
+
+.admin-login-input:focus {
+  border-color: #2575fc;
+  background: #fff;
+}
+
+.admin-login-password-wrapper {
+  position: relative;
+  margin-top: 16px;
+}
+
+.admin-login-toggle-password {
+  position: absolute;
+  top: 52%;
+  right: 18px;
+  transform: translateY(-50%);
+  cursor: pointer;
+  font-size: 15px;
+  color: #888;
+  user-select: none;
+  background: none;
+}
+
+.admin-login-btn {
+  width: 100%;
+  padding: 16px 0;
+  margin-top: 28px;
+  background: #2575fc;
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+  font-size: 1.2rem;
+  font-weight: bold;
+  cursor: pointer;
+  box-shadow: 0 4px 16px 0 rgba(37, 117, 252, 0.1);
+  transition: background 0.3s, box-shadow 0.2s;
+  outline: none;
+}
+
+.admin-login-btn:hover, .admin-login-btn:focus {
+  background: #1762c4;
+  box-shadow: 0 6px 20px 0 rgba(37, 117, 252, 0.15);
+}

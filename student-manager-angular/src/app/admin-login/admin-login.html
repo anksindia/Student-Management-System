@@ -1,0 +1,41 @@
+<div class="admin-login-bg">
+  <div class="admin-login-card">
+    <h2 class="admin-login-title">Admin Login</h2>
+    <form (submit)="handleLogin($event)">
+      <input
+        type="email"
+        name="email"
+        placeholder="Admin Email"
+        [(ngModel)]="form.email"
+        (input)="handleChange($event)"
+        required
+        class="admin-login-input"
+      />
+      <div class="admin-login-password-wrapper">
+        <input
+          [type]="showPassword ? 'text' : 'password'"
+          name="password"
+          placeholder="Password"
+          [(ngModel)]="form.password"
+          (input)="handleChange($event)"
+          required
+          class="admin-login-input admin-login-password"
+        />
+        <span
+          (click)="toggleShowPassword()"
+          class="admin-login-toggle-password"
+        >
+          {{ showPassword ? 'Hide' : 'Show' }}
+        </span>
+      </div>
+      <button
+        type="submit"
+        class="admin-login-btn"
+        (mouseover)="onMouseOver($event)"
+        (mouseout)="onMouseOut($event)"
+      >
+        Admin Login
+      </button>
+    </form>
+  </div>
+</div>

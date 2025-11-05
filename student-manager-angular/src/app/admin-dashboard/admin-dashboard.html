@@ -1,0 +1,77 @@
+<div *ngIf="admin" class="admin-dashboard-bg">
+  <div class="admin-info-card">
+    <h2 class="admin-welcome-title">Welcome, {{ admin?.name || 'Admin' }}!</h2>
+    <p><strong>Email:</strong> {{ admin?.email || '-' }}</p>
+    <p><strong>Role:</strong> {{ admin?.role || 'Admin' }}</p>
+    <button (click)="handleLogout()" class="admin-logout-btn">Logout</button>
+  </div>
+
+  <div class="admin-panel-card">
+    <h2 class="admin-section-title">All Users</h2>
+    <div class="students-table-wrapper">
+      <table class="students-table">
+        <thead>
+          <tr>
+            <th>ID</th><th>Name</th><th>Email</th><th>Roll No</th><th>Role</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr *ngFor="let u of users">
+            <td>{{ u.id }}</td>
+            <td>{{ u.name }}</td>
+            <td>{{ u.email }}</td>
+            <td>{{ u.rollNumber || '-' }}</td>
+            <td>{{ u.role }}</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+
+  <div class="admin-panel-card">
+    <h2 class="admin-section-title">Manage Students</h2>
+    <form class="admin-student-form" (submit)="editId ? saveStudent() : addStudent(); $event.preventDefault();">
+      <div class="admin-row">
+        <input placeholder="Name" [(ngModel)]="form.name" name="name" class="admin-input" required/>
+        <input placeholder="Email" [(ngModel)]="form.email" name="email" class="admin-input" required/>
+        <input placeholder="Mobile No" type="tel" [(ngModel)]="form.mobileNo" name="mobileNo" class="admin-input" required/>
+        <input placeholder="Address" [(ngModel)]="form.address" name="address" class="admin-input" required/>
+      </div>
+      <div class="admin-subjects">
+        <h4>Select Subjects:</h4>
+        <div class="admin-checkbox-list">
+          <label *ngFor="let sub of subjects" class="admin-checkbox-label">
+            <input type="checkbox" [checked]="selectedSubjects.includes(sub.id)" (change)="handleSubjectChange(sub.id)"/>
+            {{ sub.subjectName }}
+          </label>
+        </div>
+      </div>
+      <button class="admin-add-btn" type="submit" *ngIf="!editId">Add</button>
+      <button class="admin-save-btn" type="submit" *ngIf="editId">Save Changes</button>
+    </form>
+
+    <div class="students-table-wrapper">
+      <table class="students-table">
+        <thead>
+          <tr>
+            <th>ID</th><th>Name</th><th>Address</th><th>Email</th><th>Mobile</th><th>Subjects</th><th>Actions</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr *ngFor="let s of students">
+            <td>{{ s.id }}</td>
+            <td>{{ s.name }}</td>
+            <td>{{ s.address }}</td>
+            <td>{{ s.email }}</td>
+            <td>{{ s.mobileNo }}</td>
+            <td>{{ s.subjectNames?.join(', ') }}</td>
+            <td>
+              <button class="edit-btn" (click)="startEdit(s)">Edit</button>
+              <button class="delete-btn" (click)="deleteStudent(s.id)">Delete</button>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</div>
